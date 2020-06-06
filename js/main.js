@@ -1,6 +1,6 @@
 // Service Worker
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./js/serviceworker.js')
+    navigator.serviceWorker.register('serviceworker.js')
         .then(function(resp) {
             console.log("ServiceWorker cargado correctamente");
             console.log(resp);
